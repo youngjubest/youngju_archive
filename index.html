@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youngju archive</title>
+    <!-- CSS 파일 연결 (css 폴더 안에 style.css 있어야 함) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==================== 헤더 (로고 + 메뉴) ==================== -->
+    <header>
+        <h1 class="logo">youngju archive</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Main</a></li>
+                <li><a href="#projects">Projects</a></li>
+
+                <!-- 두개만 남기기 
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Notice</a></li>
+                <li><a href="#">About</a></li>
+                -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ==================== 메인 콘텐츠 영역 ==================== -->
+    <main>
+        <!-- 갤러리 소개 문구 -->
+        <section class="intro">
+            <p><strong>YoungJu</strong> represents the initials of ‘ordinary art original art’, a space that introduces art creating a point of natural sympathy for the ordinary daily life of the viewer, the artist’s personal experience, and the artistic spirit inherent in the work.</p>
+        </section>
+
+        <!-- 최근 프로젝트 -->
+        <section class="current">
+            <h2>My Recent</h2>
+            <div class="current-grid">
+                <!-- 전시 1 -->
+                <div class="exhibition">
+                    <img src="/images/7.png" alt="Life in Between">
+                    <div class="info">
+                        <div class="title">Kyu Hwa Moon, Jae Yul Jeoung, Sung Joo Ham: Life in Between</div>
+                        <div class="date">11/19–12/27/2025</div>
+                    </div>
+                    <a href="#" class="view-more">View more →</a>
+                </div>
+
+                <!-- 전시 2 (빈칸처럼 보이는 사진) -->
+                <div class="exhibition">
+                    <img src="/images/8.png" alt="Clock">
+                    <div class="info">
+                        <div class="title"></div> <!-- 제목 없으면 빈칸으로 둠 -->
+                        <div class="date"></div>
+                    </div>
+                    <a href="#" class="view-more">View more →</a>
+                </div>
+
+                <!-- 여기부터 새로 추가하는 전시 3 -->
+                <div class="exhibition">
+                    <img src="/images/9.png" alt="New Exhibition">
+                    <div class="info">
+                        <div class="title">Artist Name: Exhibition Title</div>
+                        <div class="date">2025. 12. 01 – 2026. 01. 15</div>
+                    </div>
+                    <a href="#" class="view-more">View more →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== Upcoming Projects (3×2 그리드) ==================== -->
+        <section class="upcoming-projects" id="projects">
+            <div class="upcoming-container">
+                <h2>Projects</h2>
+        
+                <div class="projects-grid">
+                    <!-- 1 -->
+                    <div class="project-item">
+                        <img src="/images/7.png" alt="Upcoming Project 1">
+                    </div>
+                    <!-- 2 -->
+                    <div class="project-item">
+                        <img src="/images/8.png" alt="Upcoming Project 2">
+                    </div>
+                    <!-- 3 -->
+                    <div class="project-item">
+                        <img src="/images/9.png" alt="Upcoming Project 3">
+                    </div>
+                    <!-- 4 -->
+                    <div class="project-item">
+                        <img src="/images/9.png" alt="Upcoming Project 4">
+                    </div>
+                    <!-- 5 -->
+                    <div class="project-item">
+                    <img src="/images/7.png" alt="Upcoming Project 5">
+                    </div>
+                    <!-- 6 -->
+                    <div class="project-item">
+                        <img src="/images/8.png" alt="Upcoming Project 6">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 지난 전시 -->
+        <section class="past">
+            <!-- 지난 전시 1 -->
+            <div class="exhibition">
+                <img src="https://via.placeholder.com/800x600/f9c9a0/ffffff?text=Warm+Horizon" alt="Warm Horizon">
+                <div class="info">
+                    <div class="title">Kyung Woo Han: Warm Horizon</div>
+                    <div class="date">10/15–11/09/2025</div>
+                </div>
+                <a href="#" class="view-more">View more →</a>
+            </div>
+
+            <!-- 지난 전시 2 (투명한 오브제 사진) -->
+            <div class="exhibition">
+                <img src="https://via.placeholder.com/800x800/cceeff/ffffff?text=Crystal+Object" alt="Crystal">
+                <div class="info">
+                    <div class="title"></div>
+                    <div class="date"></div>
+                </div>
+                <a href="#" class="view-more">View more →</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== 푸터 (주소, 영업시간, 갤러리 사진) ==================== -->
+    <footer>
+        <div class="footer-inner">
+            <div class="contact">
+                <h3>About</h3>
+                <p>서울 강남구 압구정로 63길 32-11, 1층<br>
+                   32-11, Sinsa-dong, Gangnam-gu, Seoul, Republic of Korea</p>
+                <p>E oaoagallery@gmail.com<br>
+                   T 02.6207.3211</p>
+                <p>수—토요일 11-18시 (일, 월, 공휴일 휴관)<br>
+                   Wednesday – Saturday 11am – 6pm<br>
+                   (Closed on Mon, Tue, Sunday and Holidays)</p>
+            </div>
+            <div class="gallery-img">
+                <img src="/images/10.png" alt="Gallery interior">
+            </div>
+        </div>
+    </footer>
+
+    <!-- 카피라이트 -->
+    <div class="copyright">
+        Copyright 2022. oaoa gallery All rights reserved.
+    </div>
+
+    <!-- 자바스크립트 파일 연결 (js 폴더 안에 main.js 있어야 함) -->
+    <script src="js/main.js"></script>
+</body>
+</html>
